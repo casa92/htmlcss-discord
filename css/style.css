@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*COMMON*/
+
+body {
+    font-family: "Whitney", sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*buttons*/
+.btn {
+    display: inline-block;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: normal;
+}
+.btn-small {
+    font-size: 14px;
+    padding: 10px 14px;
+}
+.btn-large {
+    padding: 16px 32px;
+    font-size: 20px;
+}
+.btn-black {
+    background-color: #23272a;
+    color: white;
+}
+.btn-black:hover {
+    background-color: white;
+    color: #23272a;
+}
+.btn-white {
+    background-color: white;
+    color: #23272a;
+}
+.btn-white:hover {
+    background-color: #23272a;
+    color: white;
+}
+/*img*/
+.col-img img {
+    width: 100%;
+}
+/* img {
+    width: 100%;
+} */
+/*text*/
+.title {
+    font-size: 55px;
+    line-height: 65px;
+}
+.text {
+    font-size: 21px;
+    line-height: 33px;
+}
+.white-text {
+    color: white;
+}
+/*layout*/
+.container {
+width: 75%;
+margin: auto;
+}
+.col {
+    float: left;
+}
+/*HEADER*/
+header {
+    background-color: #3161e0;
+    height: 85px;
+    line-height: 85px;
+}
+.logo,
+.login {
+    width: 10%;
+}
+/*logo*/
+.logo img {
+    vertical-align: middle;
+}
+/*menu*/
+.header-menu {
+    width: 80%;
+    text-align: center;
+}
+.header-menu ul {
+    list-style-type: none;
+}
+.header-menu li {
+    display: inline-block;
+    padding-right: 35px;
+    vertical-align: middle;
+}
+.header-menu li:last-child {
+    padding-right: 0;
+}
+.header-menu a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.header-menu a:hover {
+    border-bottom: 1px solid white;
+}
+/*login*/
+.login {
+    width: auto;
+    vertical-align: middle;
+    text-align: right;
+}
+/*MAIN*/
+/*jumbotron*/
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 120px 0;
+    color: white;
+}
+.jumbotron-content {
+    width: 50%;
+    margin: auto;
+}
+.jumbotron-content h1 {
+    margin-bottom: 40px;
+}
+/*header-buttons*/
+.buttons {
+    margin-top: 25px;
+}
+.buttons .btn {
+    margin-right: 25px;
+}
+.buttons .btn:last-child {
+    margin-right: 0;
+}
+/*content*/
+.main-content .col-img {
+    width: 65%;
+}
+.main-content .col-text {
+    width: 35%;
+    text-align: left;
+    padding-top: 20px;
+}
+.main-content .col {
+    margin: 100px 0;
+}
+
+/*FOOTER*/
