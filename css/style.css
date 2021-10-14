@@ -18,7 +18,6 @@ body {
     display: inline-block;
     border-radius: 40px;
     text-decoration: none;
-    display: inline-block;
     line-height: normal;
 }
 .btn-small {
@@ -45,6 +44,16 @@ body {
     background-color: #23272a;
     color: white;
 }
+.btn-back-main-bottom-signup {
+    background-color: #8ea1e1;
+    color: white;
+}
+.main-bottom .btn {
+    padding: 10px 26px;
+}
+.col-float-right {
+    float: right;
+}
 /*img*/
 .col-img img {
     width: 100%;
@@ -52,7 +61,7 @@ body {
 /* img {
     width: 100%;
 } */
-/*text*/
+/*text and color*/
 .title {
     font-size: 55px;
     line-height: 65px;
@@ -64,6 +73,9 @@ body {
 .white-text {
     color: white;
 }
+.back-lighgray {
+    background-color: #f6f6f6;
+}
 /*layout*/
 .container {
 width: 75%;
@@ -72,11 +84,21 @@ margin: auto;
 .col {
     float: left;
 }
+.padding-left {
+    padding-left: 70px;
+} 
+.padding-right {
+    padding-right: 70px;
+}
 /*HEADER*/
 header {
-    background-color: #3161e0;
+    background-color: rgba(37, 94, 233, 0.9);
     height: 85px;
     line-height: 85px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 .logo,
 .login {
@@ -133,7 +155,7 @@ header {
 .jumbotron-content h1 {
     margin-bottom: 40px;
 }
-/*header-buttons*/
+/*jumbotron-buttons*/
 .buttons {
     margin-top: 25px;
 }
@@ -144,16 +166,108 @@ header {
     margin-right: 0;
 }
 /*content*/
+#margin-top-first-section {
+    margin-top: 120px;
+}
 .main-content .col-img {
-    width: 65%;
+    width: 60%;
 }
 .main-content .col-text {
-    width: 35%;
+    width: 40%;
     text-align: left;
-    padding-top: 20px;
+}
+.col-text .title {
+    padding-bottom: 20px;
+}
+.col-text .text {
+    padding-right: 25px;
 }
 .main-content .col {
-    margin: 100px 0;
+    margin-bottom: 170px;
+    margin-top: 170px;
+}
+/*main bottom*/
+.main-bottom {
+    padding-top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
 }
 
+.img-header-bottom img{
+    width: 100%;
+}
+.main-bottom .title {
+    margin-bottom: 20px;
+}
+.back-stars h3 {
+    font-size: 30px;
+    line-height: 120px;
+    margin: 40px 0;
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 60%;
+}
 /*FOOTER*/
+footer {
+    background-color: #23272a;
+    color: white;
+}
+footer .container {
+    padding-top: 100px;
+}
+.flag {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+.flag img {
+    width: 20px;
+    vertical-align: middle;
+}
+.col-footer-social {
+    width: 36%;
+    padding-right: 50px;
+}
+.col-footer-social .flag {
+    display: inline-block;
+}
+.col-footer-social h3 {
+    color: #7289da;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.col-menu {
+    width: 16%;
+}
+.col-menu ul {
+    list-style-type: none;
+}
+.col-menu li{
+    padding-bottom: 15px;
+}
+.col-menu ul li a {
+    color: #e4e5e5;
+    text-decoration: none;
+}
+.col-menu ul li:first-child div {
+    color: #7289da;
+    font-weight: bold;
+}
+.col-footer-social,
+.col-menu {
+    padding-bottom: 20px;
+}
+.col-logo,
+.col-float-right {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.col-menu a:hover {
+    border-bottom: 1px solid #e4e5e5;
+}
+i {
+    color: white;
+}
